@@ -1,0 +1,23 @@
+{
+  "name": "js-equation-parser",
+  "version": "1.0.0",
+  "description": "A parser to create AST",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "mocha": "^6.0.1",
+    "npm": "^6.8.0"
+  }
+}
